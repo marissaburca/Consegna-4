@@ -1,107 +1,202 @@
 /* IMPOSTAZIONI GENERALI */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,700;0,900;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,900;1,600&display=swap');
 body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: column wrap;
-    margin-left: 0 auto;
-    margin-right: 0 auto;
     width: 500px;
     background-image: url(/assets/img/sfondo.png);
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
-    font-size: 20px ;
+    font-size: 1.2em;
+    margin: 25px 25px 0
 
+}
+span{
+    font-weight: 500;
+    color: rgb(145,54,100);
 }
 
 
 /* HEADER */
-.container1{
-    display: block;
-    color: white;
-    margin: 5%;
+.container{
+    width: 90%;
     text-align: center;
-    background: linear-gradient(to top,rgb(35,88,118 ), rgb(60,143,184));
+    background: linear-gradient(to top,rgb(36,90,118),rgb(63,149,187));
+    box-shadow: 1px 5px 5px rgb(39, 50, 55);
+    margin-bottom: 30px;
 }
-#logopagina{
-    width: 50%;
-    padding: 30px 15px;
-   
+#logo{
+    width: 70%;
+    padding: 40px;
+
 }
 h2{
-    font-weight: 700;
-    font-size: 25px;
-   
+    color: white;
+    font-size: 1.15em;
+    font-weight: 400;
+    padding-bottom: 30px;
 }
 nav{
-    list-style: none;
-    padding: 8%;
-    display: flex;
-    justify-content: center;
-    font-weight: 700; 
+    padding-bottom: 40px;
 }
-.fas{
-    margin: 5px;
-    
+.menu{
+    list-style-type: none;
+    padding-left: 0;
 }
-
+nav > ul > li{
+    color: white;
+    font-weight: 400;
+    padding: 5px 0;
+}
+.tab{
+    background-color: rgb(219,222,218) ;
+    border-color: 1px solid rgb(67, 65, 65);
+    border-radius: 10px;
+}
 
 /* MAIN */
-#container2{
-    margin: 0 5%;
-    background-color: white ;
-    border: 1px solid grey;
-    padding: 10px;
+.container1{
+    box-sizing: border-box;
+    width: 90%;
+    background: white;
+    box-shadow: -1px 5px 10px rgb(6, 6, 6);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 h1{
-    padding: 20px 0;
     font-weight: 400;
-    font-size: 30px;
+    font-style: bold;
+    font-size: 2em;
+    padding-bottom: 30px;
 }
 .trasparente{
-    font-size: 20px;
-    padding: 20px 0;
-    opacity: 0.4;
+    opacity: 0.5;
+    font-size: 1.15em;
+    font-style: bold;
+    padding-bottom: 30px;
 }
-    
 
 /* ELEMENTI NEL MAIN - ARTICLE */
+
 article > p{
-    font-weight: 200;
-    font-size: 20px ;
-    padding: 12px 0;
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 1.15em;
+
 }
 ul{
- list-style-type: disc;
- padding-inline-start: 40px;
+    list-style-type: disc;
+    padding-left: 40px;
+    padding-top: 20px;
 }
 ol{
     list-style-type: decimal;
-    padding-inline-start: 40px;
-   }
-.tab{
-    display: block;
-    background-color: gray;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+li{
+    font-size: 1.15em;
+    padding: 5px ;
+}
+p > a{
+    font-weight: 600;
+    color: rgb(19,135,184);
+
 }
 /* TABELLE */
-caption{
-    padding: 10px;
-}
-
-
 table{
-    
-    border: 2px solid black;
-    border-collapse: collapse;
-    padding: 2px;
+    display: block;
+    padding-top: 20px;
+   
 }
+caption{
+    font-style: oblique;
+    font-weight: 500;
+}
+th{
+    color: white;
+    padding: 20px;
+    border: 1px solid rgb(255,255,255);
+    background-color: rgb(57,92,184);    
+}
+td{
+    padding:20px;
+    text-align: center;
+}
+tr:nth-child(even){
+    background-color: rgb(240,240,240);
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+section{
+    width: 100%;
+    margin-top: 30px;
+}
+.video{
+    width: 100%;
+    height: 300px;
+    border-radius: 25px;
+
+    
+}   
+
+
 /* FORM */
+form{
+    display: block;
+    background-color: #dddcdc;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.5em;
+    padding: 20px;
+    margin: 35px;
+}
+form > p{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 1.2em;
+}
+.campo{
+    display: block;
+    box-sizing: border-box;
+    margin-left:20px;
+    margin-right:20px;
+
+     
+}
+input{
+    height:40px;
+    width: 250px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom-style: dashed;
+   
+}
+button{
+    box-sizing: border-box;
+    color: white;
+    background-color: rgb(74, 74, 210);
+    height: 40px;
+    width: 100px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1.2em;
+    border:none;
+    
+}
 
 /* ELEMENTI NELL' ASIDE */
-.list{
+aside>ul{
+    display: block;
     list-style: none;
-
+    padding-left: 0;
+    
 }
 
 /* FOOTER */

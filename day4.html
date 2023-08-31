@@ -16,45 +16,42 @@
     
   </head>
   <body>
-  
-    <header>
-      <div class="container1">
-        <img src="/assets/img/logo.svg" alt="logo" id="logopagina" />
+     <header>
+      <div class="container">
+        <img src="/assets/img/logo.svg" alt="logo" id="logo" />
         <h2>EPICODE - IL BLOG DEI DEVELOPERS</h2>
         <nav>
-          <ul>
-            <li><i class="fas fa-angle-double-right"></i>HOME<i class="fas fa-angle-double-left"></i></li>
-            <li><i class="fas fa-angle-double-right"></i>ARTICOLI<i class="fas fa-angle-double-left"></i></li>
-            <li><i class="fas fa-angle-double-right"></i>LAVORA CON NOI<i class="fas fa-angle-double-left"></i></li>
+          <ul class="menu">
+            <li><i class="fas fa-angle-double-right"></i>   HOME   <i class="fas fa-angle-double-left"></i></li>
+            <li><i class="fas fa-angle-double-right"></i>   ARTICOLI   <i class="fas fa-angle-double-left"></i></li>
+            <li><i class="fas fa-angle-double-right"></i>   LAVORA CON NOI   <i class="fas fa-angle-double-left"></i></li>
           </ul>
         </nav>
       </div>
     </header>
-    <main id="container2">
-      <div class="container2">
+    <div class="container1">
+       <main>
         <h1>Come creare un template per i post</h1>
         <p class=" trasparente">
-          <i class="fas fa-pen-square"></i>di Mario Rossi -
+          <i class="fas fa-pen-square"></i> di Mario Rossi -
           <i class="fas fa-clock"></i> pubblicato il 25-10-2020
         </p>
         <article>
           <p>
             La prima cosa da fare è suddividere in blocchi logici la pagina,
-            identificando le parti comuni da applicare a tutte le pagine
+            identificando le <span>parti comuni</span> da applicare a tutte le pagine
           </p>
           <p>Le varie aree saranno quindi suddivise in:</p>
           <ul>
-            <li>Contenuti di intestazione del tag <span class= tab">&lt;header&gt;</span></li>
+            <li>Contenuti di intestazione del tag <text class="tab">&lt;header&gt;</text></li>
             <li>
-              Contenuti centrali variabili del tag <span class= tab">&lt;;main&gt; (corpo principale)</span>
+              Contenuti centrali variabili del tag <text class="tab">&lt;main&gt;</text> (corpo principale)
             </li>
-            <li>Contenuti di fine pagina comuni, <span class= tab">da inserire nel tag &lt;footer&gt;</span></li>
+            <li>Contenuti di fine pagina comuni, da inserire nel tag <text class="tab">&lt;footer&gt;</text></li>
           </ul>
-        </article>
-        <article>
           <p>
-            Formattazione del codice Il testo dell'articolo dovrà essere
-            formattato per identificare tutte le parti da selezionare con i CSS.
+            Formattazione del codice.<br>Il testo dell'articolo dovrà essere
+            formattato per identificare tutte le parti da <span>selezionare con i CSS.</span>
             Perciò i passi saranno:
           </p>
           <ol>
@@ -72,16 +69,16 @@
             L'applicazione di stili CSS è cresciuta negli anni fino a
             raggiungere la diffusione pressoché totale.
           </p>
-        </article>
-        <table>
+         <table>
           <caption>
             Diffusione dei CSS
           </caption>
+          <div class="centro">
           <thead>
             <tr>
-              <th>Anno</th>
-              <th>% di utilizzo</th>
-              <th>Supporto Browsers</th>
+              <th ><br>Anno</th>
+              <th >% di utilizzo</th>
+              <th >Supporto Browsers</th>
             </tr>
           </thead>
           <tbody>
@@ -113,53 +110,56 @@
               <td>76%</td>
             </tr>
           </tfoot>
+        </div>
         </table>
-        <article>
         <p>
           Un test di validazione potrà essere fatto tramite il
           <a href="#">tool online</a> dedicato allo scopo. Una volta ottimizzato
           il tutto, avremo raggiunto il nostro obiettivo ed essere stati dei
           veri developers come loro:
         </p>
-        <div>
-          <iframe
-            width="560"
-            height="315"
+        <section>
+          <iframe class="video"
             src="https://www.youtube.com/embed/aBSZVeBRvDY?si=E7X7QV1GVBUGMmLS"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen
           ></iframe>
-        </div>
+        </section>
         </article>
         <form>
-          <label for="mail">Inserisci l'email</label>
-          <input type="email" id="mail" />
-          <button type="submit">Iscriviti!</button>
+          <h3>NOVITÀ</h3>
+          <p>Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla nostra newsletter:</p>
+          <div class="campo">
+            <input type="email" placeholder="inserisci l'email" id="mail" />
+            <button type="submit">Iscriviti!</button>
+          </div>
         </form>
         <aside>
           <p>Articoli correlati</p>
-          <ul class="list">
-             <li>Validare il codice HTML</li>
-             <li>Categoria: develop</li>
-             <li>Data: 18-9-2020</div>  
+          <ul >
+             <li><a href="#">Validare il codice HTML</a></li>
+             <li><i class="fas fa-tag"></i>  Categoria: develop</li>
+             <li><i class="fas fa-calendar-alt"></i>  Data: 18-9-2020</li>  
           </ul>
-          <ul class="list">
-              <li>Correggere la sintassi</li>
-              <li>Categoria: develop</li>
-              <li>Data: 16-9-2020</ul>
+          <ul>
+              <li><a href="#">Correggere la sintassi</a></li>
+              <li><i class="fas fa-tag"></i>  Categoria: develop</li>
+              <li><i class="fas fa-calendar-alt"></i>  Data: 16-9-2020</ul>
           </ul>
-          <ul class="list">
-              <li>Meno Kb nella pagina</li>
-              <li>Categoria: ottimizzazione</li>
-              <li>Data: 30-9-2020</li>
-          </ul></aside>
-      </div>
+          <ul>
+              <li><a href="#">Meno Kb nella pagina</a></li>
+              <li><i class="fas fa-tag"></i>  Categoria: ottimizzazione</li>
+              <li><i class="fas fa-calendar-alt"></i>  Data: 30-9-2020</li>
+          </ul>
+        </aside> 
     </main>
+  </div>
     <footer>
       <p>Blog Epicode @2023</p>
       <p>Testata online di Mario Rossi, registrata con prot. n.213&sol;2018 - Via Luigi Einaudi 2 - Milano. P-IVA 00112233.
           <a href="mailto:Info@repicode.school">Info@repicode.school</a></p></footer>
+   
   </body>
 </html>
