@@ -1,229 +1,215 @@
 /* IMPOSTAZIONI GENERALI */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,900;1,600&display=swap');
-body{
-    width: 500px;
-    background-image: url(/assets/img/sfondo.png);
-    font-family: 'Poppins', sans-serif;
-    font-weight: 200;
-    font-size: 1.2em;
-    margin: 25px 25px 0
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,900;1,600&display=swap");
+body {
+  width: 500px;
+  background-image: url(/assets/img/sfondo.png);
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-size: 1.2em;
+  margin: 25px 25px 0;
 }
-span{
-    font-weight: 500;
-    color: rgb(145,54,100);
+span {
+  font-weight: 500;
+  color: rgb(145, 54, 100);
 }
-
 
 /* HEADER */
-.container{
-    width: 90%;
-    text-align: center;
-    background: linear-gradient(to top,rgb(36,90,118),rgb(63,149,187));
-    box-shadow: 1px 5px 5px rgb(39, 50, 55);
-    margin-bottom: 30px;
+.container {
+  width: 90%;
+  text-align: center;
+  background: linear-gradient(to top, rgb(36, 90, 118), rgb(63, 149, 187));
+  box-shadow: 1px 5px 5px rgb(39, 50, 55);
+  margin-bottom: 30px;
 }
-#logo{
-    width: 70%;
-    padding: 40px;
-
+#logo {
+  width: 70%;
+  padding: 40px;
 }
-h2{
-    color: white;
-    font-size: 1.15em;
-    font-weight: 400;
-    padding-bottom: 30px;
+h2 {
+  color: white;
+  font-size: 1.15em;
+  font-weight: 400;
+  padding-bottom: 30px;
 }
-nav{
-    padding-bottom: 40px;
+nav {
+  padding-bottom: 40px;
 }
-.menu{
-    list-style-type: none;
-    padding-left: 0;
+.menu {
+  list-style-type: none;
+  padding-left: 0;
 }
-nav > ul > li{
-    color: white;
-    font-weight: 400;
-    padding: 5px 0;
+nav > ul > li {
+  color: white;
+  font-weight: 400;
+  padding: 5px 0;
 }
-.tab{
-    background-color: rgb(219,222,218) ;
-    border-color: 1px solid rgb(67, 65, 65);
-    border-radius: 10px;
+.tab {
+  background-color: rgb(219, 222, 218);
+  border-color: 1px solid rgb(67, 65, 65);
+  border-radius: 10px;
 }
 
 /* MAIN */
-.container1{
-    box-sizing: border-box;
-    width: 90%;
-    background: white;
-    box-shadow: -1px 5px 10px rgb(6, 6, 6);
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 40px;
-    padding-bottom: 40px;
+.container1 {
+  box-sizing: border-box;
+  width: 90%;
+  background: white;
+  box-shadow: -1px 5px 10px rgb(6, 6, 6);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
-h1{
-    font-weight: 400;
-    font-style: bold;
-    font-size: 2em;
-    padding-bottom: 30px;
+h1 {
+  font-weight: 400;
+  font-style: bold;
+  font-size: 2em;
+  padding-bottom: 30px;
 }
-.trasparente{
-    opacity: 0.5;
-    font-size: 1.15em;
-    font-style: bold;
-    padding-bottom: 30px;
+.trasparente {
+  opacity: 0.5;
+  font-size: 1.15em;
+  font-style: bold;
+  padding-bottom: 30px;
 }
 
 /* ELEMENTI NEL MAIN - ARTICLE */
 
-article > p{
-    display: block;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    font-size: 1.15em;
-
+article > p {
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-size: 1.15em;
 }
-ul{
-    list-style-type: disc;
-    padding-left: 40px;
-    padding-top: 20px;
+ul {
+  list-style-type: disc;
+  padding-left: 40px;
+  padding-top: 20px;
 }
-ol{
-    list-style-type: decimal;
-    padding-left: 40px;
-    padding-top: 20px;
+ol {
+  list-style-type: decimal;
+  padding-left: 40px;
+  padding-top: 20px;
 }
-li{
-    font-size: 1.15em;
-    padding: 5px ;
+li {
+  font-size: 1.15em;
+  padding: 5px;
 }
-a{
-    font-weight: 600;
-    color: rgb(19,135,184);
-
+a {
+  font-weight: 600;
+  color: rgb(19, 135, 184);
 }
 /* TABELLE */
-table{
-    display: block;
-    padding-top: 20px;  
+table {
+  display: block;
+  padding-top: 20px;
 }
-caption{
-    font-style: oblique;
-    font-weight: 500;
+caption {
+  font-style: oblique;
+  font-weight: 500;
 }
-th{
-    color: white;
-    padding: 20px;
-    border: 1px solid rgb(255,255,255);
-    background-color: rgb(57,92,184);    
+th {
+  color: white;
+  padding: 20px;
+  border: 1px solid rgb(255, 255, 255);
+  background-color: rgb(57, 92, 184);
 }
-td{
-    padding:20px;
-    text-align: center;
+td {
+  padding: 20px;
+  text-align: center;
 }
-tr:nth-child(even){
-    background-color: rgb(240,240,240);
-    border-top: 1px solid grey;
-    border-bottom: 1px solid grey;
+tr:nth-child(even) {
+  background-color: rgb(240, 240, 240);
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
 }
-section{
-    width: 100%;
-    margin-top: 30px;
+section {
+  width: 100%;
+  margin-top: 30px;
 }
-.video{
-    width: 100%;
-    height: 250px;
-    border-radius: 25px;    
-}   
-
+.video {
+  width: 100%;
+  height: 250px;
+  border-radius: 25px;
+}
 
 /* FORM */
-form{
-    display: block;
-    background-color: #dddcdc;
+form {
+  display: block;
+  background-color: #dddcdc;
 }
-h3{
-    text-align: center;
-    font-weight: 600;
-    font-size: 1.5em;
-    padding: 20px;
-    margin: 25px;
+h3 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.5em;
+  padding: 20px;
+  margin: 25px;
 }
-form > p{
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 40px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 200;
-    font-size: 1.2em;
+form > p {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 40px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-size: 1.2em;
 }
-.campo{
-    display: block;
-    box-sizing: border-box;
-    margin-left:20px;
-    margin-right:20px;
-
-     
+.campo {
+  display: block;
+  box-sizing: border-box;
+  margin-left: 20px;
+  margin-right: 20px;
 }
-input{
-    height:40px;
-    width: 250px;
-    margin-bottom: 20px;
-    border: none;
-    border-bottom-style: dashed;
-   
+input {
+  height: 40px;
+  width: 250px;
+  margin-bottom: 20px;
+  border: none;
+  border-bottom-style: dashed;
 }
-button{
-    box-sizing: border-box;
-    color: white;
-    background-color: rgb(74, 74, 210);
-    height: 40px;
-    width: 100px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    font-size: 1.2em;
-    border:none;
-
+button {
+  box-sizing: border-box;
+  color: white;
+  background-color: rgb(74, 74, 210);
+  height: 40px;
+  width: 100px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1.2em;
+  border: none;
 }
 
 /* ELEMENTI NELL' ASIDE */
-aside>ul{
-    display: block;
-    list-style: none;
-    padding-left: 20PX;
-    background-color: #dddcdc;
-    height: 150px;  
+aside > ul {
+  display: block;
+  list-style: none;
+  padding-left: 20px;
+  background-color: #dddcdc;
+  height: 150px;
 }
-.data{
-    display: block;
-    text-align: end;
-    padding-top: 30px;
-    padding-right: 20px;
-    font-size: 0.9em;
+.data {
+  display: block;
+  text-align: end;
+  padding-top: 30px;
+  padding-right: 20px;
+  font-size: 0.9em;
 }
-
-
 
 /* FOOTER */
-footer{
-    width: 90%;
-    height: 170px;
-    text-align: center;
-    background: linear-gradient(to top,rgb(45, 51, 54),rgb(36, 97, 124));
-    box-shadow: 1px 5px 5px rgb(39, 50, 55);
-    margin-top: 30px;
-    margin-bottom: 30px;
-
+footer {
+  width: 90%;
+  height: 170px;
+  text-align: center;
+  background: linear-gradient(to top, rgb(45, 51, 54), rgb(36, 97, 124));
+  box-shadow: 1px 5px 5px rgb(39, 50, 55);
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
-footer>p{
-    display: block;
-    color: white;
-    padding-top: 20px;
-   
+footer > p {
+  display: block;
+  color: white;
+  padding-top: 20px;
 }
-#tag{
-    text-decoration: none;
-    color: rgb(232, 21, 204);
+#tag {
+  text-decoration: none;
+  color: rgb(232, 21, 204);
 }
